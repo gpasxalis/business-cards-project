@@ -22,7 +22,7 @@ export default function MainSection() {
           className="info--saveContact"
           href="vcard.vcf"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
           download=""
         >
           <div className="icon iconColor">
