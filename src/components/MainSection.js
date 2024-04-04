@@ -6,6 +6,8 @@ import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import InfoButtons from "./InfoButtons";
 import InfoButtonsSocial from "./InfoButtonsSocial";
 import Info from "./InfoText";
+import ContactVCF from "./vcard.vcf"
+
 
 export default function MainSection() {
   return (
@@ -20,10 +22,10 @@ export default function MainSection() {
       <div className="info--contact">
         <a
           className="info--saveContact"
-          href="vcard.vcf"
+          href={ContactVCF}
           target="_blank"
           rel="noreferrer"
-          download="vcard.vcf"
+          download
         >
           <div className="icon iconColor">
             <FontAwesomeIcon icon={faIdBadge} className="info--icon" /> 
