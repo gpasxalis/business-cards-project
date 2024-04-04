@@ -23,7 +23,7 @@ export default function MainSection() {
           href="vcard.vcf"
           target="_blank"
           rel="noreferrer"
-          download=""
+          download="vcard.vcf"
         >
           <div className="icon iconColor">
             <FontAwesomeIcon icon={faIdBadge} className="info--icon" /> 
