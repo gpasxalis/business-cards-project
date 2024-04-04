@@ -161,7 +161,7 @@ p {
   padding: 1rem;
   line-height: 0;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 100%;
+  border-radius: 10px;
   cursor: pointer;
   color: var(--clr-text-light);
   background-color: var(--clr-button-bg);
@@ -174,7 +174,7 @@ p {
   padding: 1rem;
   line-height: 0;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 100%;
+  border-radius: 10px;
   cursor: pointer;
   color: var(--clr-text-light);
   background-color: var(--clr-facebook);
@@ -187,7 +187,7 @@ p {
   padding: 1rem;
   line-height: 0;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 100%;
+  border-radius: 10px;
   cursor: pointer;
   color: var(--clr-text-light);
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
@@ -200,7 +200,7 @@ p {
   padding: 1rem;
   line-height: 0;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 100%;
+  border-radius: 10px;
   cursor: pointer;
   color: var(--clr-text-light);
   background-color: var(--clr-linkedin);
@@ -290,7 +290,7 @@ p {
   background: var(--clr-button-bg);
   display: flex;
   align-items: center;
-  border-radius: 5rem;
+  border-radius: 10px;
   padding: 1rem 1.5rem;
   cursor: pointer;
   line-height: 0;
