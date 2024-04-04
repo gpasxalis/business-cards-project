@@ -1,6 +1,6 @@
 import React from "react";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import Button from "../Misc/Button.js";
+import Button from "../../Misc/Button.js";
 
 export default function InfoButtonsSocial() {
   return (

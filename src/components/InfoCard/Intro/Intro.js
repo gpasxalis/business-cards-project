@@ -1,12 +1,12 @@
 import React from "react";
-import LogoPhoto from "../../images/logo.png";
-import CoverPhoto from "../../images/cover_me.png";
+import LogoPhoto from "../../../images/logo.png";
+import CoverPhoto from "../../../images/cover_me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import IntroInfoButtons from "./IntroInfoButtons";
 import IntroInfoButtonsSocial from "./IntroInfoButtonsSocial";
 import IntroInfo from "./IntroInfoText";
-import ContactVCF from "../Misc/vcard.vcf"
+import ContactVCF from "../../Misc/vcard.vcf"
 
 
 export default function Intro() {

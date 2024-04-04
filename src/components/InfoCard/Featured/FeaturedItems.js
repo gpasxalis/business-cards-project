@@ -8,7 +8,7 @@ export default function FeaturedItems(props) {
 			<FeaturedItem 
 				featured_title="Το μενού μας" 
 				featured_sub="Δείτε το μενού μας εδώ" 
-				featured_url="https://gr.linkedin.com/in/paschalis-grammenos-a4b430114"
+				featured_url="/onlinemenu"
 				featured_button="Δείτε το εδώ"
 			/>
 
