@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Button from "./Button.js";
 
 export default function InfoButtonsSocial() {
   return (
@@ -8,41 +8,31 @@ export default function InfoButtonsSocial() {
         <div className="info--SocialSectionBox">
             <h3 className="info--socialText">Social Media</h3>
             <div className="info--buttonsSocialSection">
-                <div className="info--item">
-                    <div className="info--buttonSocial">
-                        <a className="button button--facebook" href="https://www.facebook.com/gpasxalis94" target="_blank" rel="noopener noreferrer">
-                        {" "}
-                        <FontAwesomeIcon icon={faFacebook} className="info--icon" />
-                        </a>
-                        <p className="info--text">
-                            Facebook
-                        </p>
-                    </div>
-                </div>
 
-                <div className="info--item">
-                    <div className="info--buttonSocial">
-                        <a className="button button--instagram" href="https://www.instagram.com/g_pasxalis/">
-                        {" "}
-                        <FontAwesomeIcon icon={faInstagram} className="info--icon" />
-                        </a>
-                        <p className="info--text">
-                            Instagram
-                        </p>
-                    </div>
-                </div>
+                <Button 
+                    link_url="https://www.facebook.com/gpasxalis94" 
+                    link_paragraph="Facebook" 
+                    link_icon={faFacebook} 
+                    button_class="info--buttonSocial" 
+                    button_icon_class="button button--facebook"
+                />
 
-                <div className="info--item">
-                    <div className="info--buttonSocial">
-                        <a className="button button--linkedin" href="https://gr.linkedin.com/in/paschalis-grammenos-a4b430114" target="_blank" rel="noopener noreferrer">
-                        {" "}
-                        <FontAwesomeIcon icon={faLinkedin} className="info--icon" />
-                        </a>
-                        <p className="info--text">
-                            Linkedin
-                        </p>
-                    </div>
-                </div>
+                <Button 
+                    link_url="https://www.instagram.com/g_pasxalis/" 
+                    link_paragraph="Instagram" 
+                    link_icon={faInstagram} 
+                    button_class="info--buttonSocial" 
+                    button_icon_class="button button--instagram"
+                />
+
+                <Button 
+                    link_url="https://gr.linkedin.com/in/paschalis-grammenos-a4b430114" 
+                    link_paragraph="Linkedin" 
+                    link_icon={faLinkedin} 
+                    button_class="info--buttonSocial" 
+                    button_icon_class="button button--linkedin"
+                />
+
             </div>
         </div>
 
