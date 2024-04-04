@@ -397,6 +397,7 @@ p {
   border-radius: 0px 0px 10px 10px;
   color: var(--clr-text-light);
   font-size: .8rem;
+  margin-top: 1rem;
 }
 
 .footer a {
