@@ -1,6 +1,6 @@
 import React from "react";
 import EDMPhoto from "../../images/emanuele-del-monte.jpg";
-import CoverPhoto from "../../images/cover.png";
+import CoverPhoto from "../../images/cover_me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import IntroInfoButtons from "./IntroInfoButtons";
@@ -9,7 +9,7 @@ import IntroInfo from "./IntroInfoText";
 import ContactVCF from "../Misc/vcard.vcf"
 
 
-export default function MainSection() {
+export default function Intro() {
   return (
     <div className="main--section">
       <img className="info--photo" src={CoverPhoto} alt="test cover" />
