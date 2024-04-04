@@ -20,7 +20,7 @@ export default function MainSection() {
       <div className="info--contact">
         <a
           className="info--saveContact"
-          href="https://www.emanueledelmonte.it"
+          href="vcard.vcf"
           target="_blank"
           rel="noopener noreferrer"
         >
