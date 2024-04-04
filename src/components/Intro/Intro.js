@@ -1,5 +1,5 @@
 import React from "react";
-import EDMPhoto from "../../images/emanuele-del-monte.jpg";
+import LogoPhoto from "../../images/logo.png";
 import CoverPhoto from "../../images/cover_me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +14,7 @@ export default function Intro() {
     <div className="main--section">
       <img className="info--photo" src={CoverPhoto} alt="test cover" />
       <div className="profile--photo-section">
-        <img className="info--profile-photo" src={EDMPhoto} alt="test profile" />
+        <img className="info--profile-photo" src={LogoPhoto} alt="test profile" />
       </div>
 
       <IntroInfo />
