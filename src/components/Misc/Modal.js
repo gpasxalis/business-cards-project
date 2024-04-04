@@ -1,6 +1,6 @@
 import React from "react";
 import "./ModalStyle.css";
-import { CloseOutlined, ContentCopyOutlined } from "@mui/icons-material";
+import { CloseOutlined } from "@mui/icons-material";
 
 export default function Modal({ isOpen, onClose, isViewItem }) {
   if (!isOpen) return null;
