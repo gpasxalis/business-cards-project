@@ -10,9 +10,9 @@ import Info from "./InfoText";
 export default function MainSection() {
   return (
     <div className="main--section">
-      <img className="info--photo" src={CoverPhoto} alt="test cover photo" />
+      <img className="info--photo" src={CoverPhoto} alt="test cover" />
       <div className="profile--photo-section">
-        <img className="info--profile-photo" src={EDMPhoto} alt="test profile photo" />
+        <img className="info--profile-photo" src={EDMPhoto} alt="test profile" />
       </div>
 
       <Info />

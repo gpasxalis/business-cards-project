@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGlobe, faLocationDot, faLocationPin, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookMessenger, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faGlobe, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons";
 
 export default function InfoButtons() {
   return (
