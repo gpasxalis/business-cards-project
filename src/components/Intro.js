@@ -3,9 +3,9 @@ import EDMPhoto from "../images/emanuele-del-monte.jpg";
 import CoverPhoto from "../images/cover.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
-import InfoButtons from "./InfoButtons";
-import InfoButtonsSocial from "./InfoButtonsSocial";
-import Info from "./InfoText";
+import IntroInfoButtons from "./IntroInfoButtons";
+import IntroInfoButtonsSocial from "./IntroInfoButtonsSocial";
+import IntroInfo from "./IntroInfoText";
 import ContactVCF from "./vcard.vcf"
 
 
@@ -17,7 +17,7 @@ export default function MainSection() {
         <img className="info--profile-photo" src={EDMPhoto} alt="test profile" />
       </div>
 
-      <Info />
+      <IntroInfo />
 
       <div className="info--contact">
         <a
@@ -37,9 +37,9 @@ export default function MainSection() {
         </a>
       </div>
       
-      <InfoButtons />
+      <IntroInfoButtons />
 
-      <InfoButtonsSocial />
+      <IntroInfoButtonsSocial />
     </div>
   );
 }
