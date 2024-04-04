@@ -1,5 +1,5 @@
 import React from "react";
-import "./OnlineMenu.css";
+import "./OnlineMenuStyle.css";
 
 export default function OnlineMenu() {
 	return (
