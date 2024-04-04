@@ -1,12 +1,12 @@
 import React from "react";
-import MainSection from "./components/MainSection";
+import Intro from "./components/Intro";
 import Footer from "./components/Footer";
 import Featured from "./components/Featured";
 
 export default function App() {
   return (
     <div className="card">
-      <MainSection />
+      <Intro />
       <Featured />
       <Footer />
     </div>
