@@ -1,6 +1,4 @@
 import React from "react";
-import LogoPhoto from "../../../images/logo.png";
-import CoverPhoto from "../../../images/cover_me.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import IntroInfoButtons from "./IntroInfoButtons";
@@ -11,12 +9,7 @@ import ContactVCF from "../../Misc/vcard.vcf"
 
 export default function Intro() {
   return (
-    <div className="main--section">
-      <img className="info--photo" src={CoverPhoto} alt="test cover" />
-      <div className="profile--photo-section">
-        <img className="info--profile-photo" src={LogoPhoto} alt="test profile" />
-      </div>
-
+    <>
       <IntroInfo />
 
       <div className="info--contact">
@@ -40,6 +33,6 @@ export default function Intro() {
       <IntroInfoButtons />
 
       <IntroInfoButtonsSocial />
-    </div>
+    </>
   );
 }
