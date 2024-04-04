@@ -7,7 +7,6 @@ export default function Button(props) {
       <div className="info--item">
         <div className= { props.button_class }>
           <a className= { props.button_icon_class } href= { props.link_url } target="_blank" rel="noopener noreferrer">
-            {" "}
             <FontAwesomeIcon icon={ props.link_icon } className="info--icon" />
           </a>
           <p className="info--text">
