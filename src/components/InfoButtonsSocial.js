@@ -10,7 +10,7 @@ export default function InfoButtonsSocial() {
             <div className="info--buttonsSocialSection">
                 <div className="info--item">
                     <div className="info--buttonSocial">
-                        <a className="button button--facebook" href="tel:+306978101030" target="_blank" rel="noopener noreferrer">
+                        <a className="button button--facebook" href="https://www.facebook.com/gpasxalis94" target="_blank" rel="noopener noreferrer">
                         {" "}
                         <FontAwesomeIcon icon={faFacebook} className="info--icon" />
                         </a>
@@ -22,7 +22,7 @@ export default function InfoButtonsSocial() {
 
                 <div className="info--item">
                     <div className="info--buttonSocial">
-                        <a className="button button--instagram" href="mailto:info@emanueledelmonte.it">
+                        <a className="button button--instagram" href="https://www.instagram.com/g_pasxalis/">
                         {" "}
                         <FontAwesomeIcon icon={faInstagram} className="info--icon" />
                         </a>
@@ -34,7 +34,7 @@ export default function InfoButtonsSocial() {
 
                 <div className="info--item">
                     <div className="info--buttonSocial">
-                        <a className="button button--linkedin" href="https://www.linkedin.com/in/emanueledelmonte/" target="_blank" rel="noopener noreferrer">
+                        <a className="button button--linkedin" href="https://gr.linkedin.com/in/paschalis-grammenos-a4b430114" target="_blank" rel="noopener noreferrer">
                         {" "}
                         <FontAwesomeIcon icon={faLinkedin} className="info--icon" />
                         </a>

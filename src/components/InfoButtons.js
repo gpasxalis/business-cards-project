@@ -20,7 +20,7 @@ export default function InfoButtons() {
 
       <div className="info--item">
         <div className="info--button">
-          <a className="button button--info" href="mailto:info@emanueledelmonte.it">
+          <a className="button button--info" href="mailto:gpasxalis94@gmail.com">
             {" "}
             <FontAwesomeIcon icon={faEnvelope} className="info--icon" />
           </a>
@@ -32,7 +32,7 @@ export default function InfoButtons() {
 
       <div className="info--item">
         <div className="info--button">
-          <a className="button button--info" href="https://www.linkedin.com/in/emanueledelmonte/" target="_blank" rel="noopener noreferrer">
+          <a className="button button--info" href="https://m.me/gpasxalis94" target="_blank" rel="noopener noreferrer">
             {" "}
             <FontAwesomeIcon icon={faFacebookMessenger} className="info--icon" />
           </a>

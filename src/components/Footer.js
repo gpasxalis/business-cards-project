@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       Powered by
       <a
-        href="https://github.com/xdelmo"
+        href="https://github.com/gpasxalis"
         target="_blank"
         rel="noopener noreferrer"
       >
