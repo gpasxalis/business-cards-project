@@ -1,7 +1,7 @@
 import React from "react";
 import { faEnvelope, faGlobe, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons";
-import Button from "./Button.js";
+import Button from "../Misc/Button.js";
 
 export default function InfoButtons() {
   return (

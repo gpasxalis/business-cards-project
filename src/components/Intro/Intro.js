@@ -1,12 +1,12 @@
 import React from "react";
-import EDMPhoto from "../images/emanuele-del-monte.jpg";
-import CoverPhoto from "../images/cover.png";
+import EDMPhoto from "../../images/emanuele-del-monte.jpg";
+import CoverPhoto from "../../images/cover.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import IntroInfoButtons from "./IntroInfoButtons";
 import IntroInfoButtonsSocial from "./IntroInfoButtonsSocial";
 import IntroInfo from "./IntroInfoText";
-import ContactVCF from "./vcard.vcf"
+import ContactVCF from "../Misc/vcard.vcf"
 
 
 export default function MainSection() {
