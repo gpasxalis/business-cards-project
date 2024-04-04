@@ -1,0 +1,23 @@
+.share--actions {
+  width: 100%;
+}
+
+.share--actions > div {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin: 0rem 1.2rem;
+}
+
+.share--icons {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.share--actions .shareIcons {
+  padding: 0.9rem;
+  cursor: pointer;
+  border-radius: 100%;
+  line-height: 0;
+  color: #dddddd;
+}

@@ -18,10 +18,17 @@
 
   --clr-social-icons: #918e9b;
   --clr-accent: #f3bf99;
+<<<<<<< HEAD
   
 
   --clr-text-light: #f5f5f7;
   --clr-text-dark: #1d1d1f;
+=======
+
+  --clr-text-light: #f5f5f7;
+  --clr-text-dark: #1d1d1f;
+  --clr-text-gray: #5f5f63;
+>>>>>>> f44f8d1 (Updates)
 
   --clr-button-bg: #112a59;
   --clr-linkedin: #5093e2;
@@ -88,13 +95,21 @@ p {
 /* Buttons                */
 /* ---------------------- */
 
+<<<<<<< HEAD
 .profile--photo-section{
+=======
+.profile--photo-section {
+>>>>>>> f44f8d1 (Updates)
   display: flex;
   justify-content: center;
   margin-top: -5rem;
 }
 
+<<<<<<< HEAD
 .info--profile-photo{
+=======
+.info--profile-photo {
+>>>>>>> f44f8d1 (Updates)
   height: 10rem;
   width: auto;
   border-radius: 100%;
@@ -113,7 +128,10 @@ p {
   width: 100%;
   margin-top: 3rem;
   padding: 0rem 1rem;
+<<<<<<< HEAD
   
+=======
+>>>>>>> f44f8d1 (Updates)
 }
 
 .info--SocialSectionBox {
@@ -127,7 +145,11 @@ p {
   padding: 1rem;
 }
 
+<<<<<<< HEAD
 .info--buttonsSocialSection{
+=======
+.info--buttonsSocialSection {
+>>>>>>> f44f8d1 (Updates)
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -135,12 +157,21 @@ p {
   margin-top: 2rem;
 }
 
+<<<<<<< HEAD
 .info--item{
   width: 33.3%;
 }
 
 .info--button{
   padding: .5rem;
+=======
+.info--item {
+  width: 33.3%;
+}
+
+.info--button {
+  padding: 0.5rem;
+>>>>>>> f44f8d1 (Updates)
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,7 +221,18 @@ p {
   border-radius: 10px;
   cursor: pointer;
   color: var(--clr-text-light);
+<<<<<<< HEAD
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+=======
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+>>>>>>> f44f8d1 (Updates)
   border: none;
 }
 
@@ -207,14 +249,23 @@ p {
   border: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f44f8d1 (Updates)
 .button:hover {
   filter: brightness(85%);
 }
 
+<<<<<<< HEAD
 .info--text{
   margin: .5rem 0 0;
   font-size: .9rem;
+=======
+.info--text {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+>>>>>>> f44f8d1 (Updates)
 }
 
 /*.button--email {
@@ -232,18 +283,31 @@ p {
 /* ---------------------- */
 
 #root {
+<<<<<<< HEAD
   max-width: 28rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
     0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
     0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
   border-radius: 100px;
   margin: 1.2rem;
+=======
+  max-width: 30rem;
+>>>>>>> f44f8d1 (Updates)
 }
 
 .card {
   color: var(--clr-text-dark);
+<<<<<<< HEAD
   background-color: var(--clr-background-light);
   border-radius: 10px;
+=======
+  margin: 0px 1.2rem 1.2rem 1.2rem;
+  background-color: var(--clr-background-light);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+>>>>>>> f44f8d1 (Updates)
 }
 
 .container {
@@ -271,10 +335,16 @@ p {
 
 .info--role {
   font-weight: 500;
+<<<<<<< HEAD
   color: var(--clr-text-dark);
   opacity: .6;
   margin-top: .4rem;
   font-size: .8rem;
+=======
+  color: var(--clr-text-gray);
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+>>>>>>> f44f8d1 (Updates)
 }
 
 .info--contact {
@@ -300,12 +370,20 @@ p {
   gap: 5px;
 }
 
+<<<<<<< HEAD
 .info--saveContact p{
+=======
+.info--saveContact p {
+>>>>>>> f44f8d1 (Updates)
   line-height: 1.5;
   font-size: 1rem;
 }
 
+<<<<<<< HEAD
 .info--icon{
+=======
+.info--icon {
+>>>>>>> f44f8d1 (Updates)
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -327,7 +405,10 @@ p {
   margin-bottom: 0.5em;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f44f8d1 (Updates)
 /* FEATURED */
 
 .featured {
@@ -339,14 +420,22 @@ p {
   padding: 1rem;
 }
 
+<<<<<<< HEAD
 .featured--title{
+=======
+.featured--title {
+>>>>>>> f44f8d1 (Updates)
   font-weight: bold;
   text-align: center;
   font-size: 1.3rem;
   padding: 1rem 0;
 }
 
+<<<<<<< HEAD
 .featured--media{
+=======
+.featured--media {
+>>>>>>> f44f8d1 (Updates)
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
@@ -354,12 +443,17 @@ p {
   margin-top: 1rem;
 }
 
+<<<<<<< HEAD
 .featured--mediaTitle{
+=======
+.featured--mediaTitle {
+>>>>>>> f44f8d1 (Updates)
   font-size: 1rem;
   font-weight: bold;
   margin: 0;
 }
 
+<<<<<<< HEAD
 .featured--mediaSub{
   font-size: .9rem;
   margin: .8rem;
@@ -368,16 +462,34 @@ p {
 .featured--mediaInfo{
   padding: 1rem;
   font-size: .9rem;
+=======
+.featured--mediaSub {
+  font-size: 0.9rem;
+  margin: 0.8rem;
+}
+
+.featured--mediaInfo {
+  padding: 1rem;
+  font-size: 0.9rem;
+>>>>>>> f44f8d1 (Updates)
   text-align: center;
   width: 100%;
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .button--mediaBtn{
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
   margin: 1rem 0 .5rem;
+=======
+.button--mediaBtn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+>>>>>>> f44f8d1 (Updates)
   border-radius: 10px;
   letter-spacing: 1px;
   padding: 1rem 1.5rem;
@@ -396,7 +508,11 @@ p {
   background-color: var(--clr-background-darker);
   border-radius: 0px 0px 10px 10px;
   color: var(--clr-text-light);
+<<<<<<< HEAD
   font-size: .8rem;
+=======
+  font-size: 0.8rem;
+>>>>>>> f44f8d1 (Updates)
   margin-top: 2rem;
 }
 
