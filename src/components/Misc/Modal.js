@@ -1,11 +1,11 @@
 import React from "react";
-import "./ModalStyle.css";
 import { CloseOutlined } from "@mui/icons-material";
+import "./ModalStyle.css";
 
-export default function Modal({ isOpen, onClose, isViewItem }) {
+
+export default function Modal({ isOpen, onClose, children  }) {
   if (!isOpen) return null;
 
-  console.log({ isViewItem });
   return (
     <div id="modal">
       <div className="modal--close-section">
@@ -16,7 +16,7 @@ export default function Modal({ isOpen, onClose, isViewItem }) {
         </div>
       </div>
       <div className="modal--view">
-        <h1>This is a test</h1>
+        {children}
       </div>
     </div>
   );
