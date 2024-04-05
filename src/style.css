@@ -21,6 +21,7 @@
 
   --clr-text-light: #f5f5f7;
   --clr-text-dark: #1d1d1f;
+  --clr-text-grey: #5c5c5f;
 
   --clr-button-bg: #112a59;
   --clr-linkedin: #5093e2;
@@ -275,8 +276,7 @@ p {
 
 .info--role {
   font-weight: 500;
-  color: var(--clr-text-dark);
-  opacity: 0.6;
+  color: var(--clr-text-grey);
   margin-top: 0.4rem;
   font-size: 0.8rem;
 }
