@@ -4,7 +4,7 @@
   overflow: auto;
   position: fixed;
   color: #f5f5f7;
-  background-color: rgb(16, 16, 21);
+  background-color: rgba(16, 16, 21, 0.8);;
   display: flex;
   padding-top: 2rem;
   max-width: 30rem;
@@ -32,4 +32,8 @@
 .modal--view {
   display: flex;
   justify-content: center;
+  background: #000;
+  margin: 0px 1rem;
+  border-radius: 1rem;
+  padding: 2rem;
 }

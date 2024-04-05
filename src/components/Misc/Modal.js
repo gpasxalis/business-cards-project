@@ -7,7 +7,7 @@ export default function Modal({ isOpen, onClose, children  }) {
   if (!isOpen) return null;
 
   return (
-    <div id="modal">
+    <div id="modal" onClick={onClose} >
       <div className="modal--close-section">
         <div className="modal--close">
           <div className="modal--close-icon">
