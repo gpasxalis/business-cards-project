@@ -1,0 +1,40 @@
+.modal--view-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.6rem;
+}
+
+.modal--title {
+    text-align: center;
+}
+
+.modal--view-section > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0rem 1.2rem;
+}
+
+.copy--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: #0e9594;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.modal--view-icon {
+    cursor: pointer;
+    border-radius: 100%;
+    line-height: 0;
+    color: #dddddd;
+}
+
+.copy--icon p {
+    font-size: .8rem;
+}
