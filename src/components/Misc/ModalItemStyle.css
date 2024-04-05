@@ -24,6 +24,7 @@
     background: #0e9594;
     padding: 1rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .modal--view-icon {
@@ -35,4 +36,27 @@
 
 .copy--icon p {
     font-size: .8rem;
+}
+
+
+.qr--item{
+    margin: 1rem 2rem 2rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.qr--title,
+.qr--text {
+    margin: 0 2rem 0.5rem;
+    text-align: center;
+    color: #fff !important;
+}
+
+.qr--title {
+    font-size: 1.5rem;
+}
+
+.qr--text {
+    font-size: .9rem;
 }
