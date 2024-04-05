@@ -31,7 +31,8 @@ export default function App() {
   };
 
   const handleCopy = () => {
-    setCopyText("Copied")
+    setCopyText("Copied");
+    setTimeout(() => setCopyText("Copy URL"),1500);
   };
 
 
