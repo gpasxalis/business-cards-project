@@ -9,7 +9,7 @@ export default function ModalItemButton({isOpen}) {
     <>
       <div className="modal--view-section" id="modalButtonSection">
         <h2 className="modal--title" >
-          Press the button to copy URL
+          Copy and send the URL
         </h2>
 				<div>
           <div id="copyIcon" className="copy--icon">
